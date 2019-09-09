@@ -24,6 +24,6 @@ class TwitterBot:
         email.send_keys(self.password)
         password.send_keys(self.password)
 
-        tom = TwitterBot('tomzy337@gmail.com', 'tomzyb')
+        tom = TwitterBot('email', 'passwrd')
         tom.login()
 pass
